@@ -1,0 +1,31 @@
+Title:	Lunar Lockout Solver
+Author:	Eric Harley
+Date:	1/8/2001
+
+Java Code
+------------
+LunarLockout.java.......puzzle solver (BFS) for LunarLockout by BinaryArts
+
+Queue.java..............FIFO data structure for storing puzzles.
+
+State.java..............puzzle board representation.
+
+Program Data
+------------
+puzzles/................Working directory for puzzle solving.
+
+test.txt.gz.............Contains all bit strings of length 25.
+
+test3.txt.gz............Contains all bit strings of length 25 with at 
+			least 5 robots on the board.
+
+Perl Scripts
+------------
+addRedRobot.pl..........Takes in puzzle configurations without a red robot 
+			and generates all the configurations with the red 
+			robot placed.
+
+filterOut.pl............Removes puzzles configurations with less than 5
+			robots on the board.
+
+generateNums.pl.........Generates all bit strings of a specified length.
